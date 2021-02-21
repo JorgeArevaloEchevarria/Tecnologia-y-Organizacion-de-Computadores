@@ -1,0 +1,33 @@
+Running: C:\software\electronica\xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/hlocal/practica3/sim_sum1_isim_beh.exe -prj C:/hlocal/practica3/sim_sum1_beh.prj work.sim_sum1 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/hlocal/practica3/uaa.vhd" into library work
+Parsing VHDL file "C:/hlocal/practica3/fa.vhd" into library work
+Parsing VHDL file "C:/hlocal/practica3/uaa2.vhd" into library work
+Parsing VHDL file "C:/hlocal/practica3/adder4.vhd" into library work
+Parsing VHDL file "C:/hlocal/practica3/uaa3.vhd" into library work
+Parsing VHDL file "C:/hlocal/practica3/adder16.vhd" into library work
+Parsing VHDL file "C:/hlocal/practica3/adder64.vhd" into library work
+Parsing VHDL file "C:/hlocal/practica3/tb_adder.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity uaa_3_1 [uaa_3_1_default]
+Compiling package std_logic_arith
+Compiling package std_logic_signed
+Compiling architecture behavioral of entity uaa_2_1 [uaa_2_1_default]
+Compiling architecture behavioral of entity uaa_1_1 [uaa_1_1_default]
+Compiling architecture behavioral of entity full_add_1 [full_add_1_default]
+Compiling architecture behavioral of entity adder_4bits_2 [adder_4bits_2_default]
+Compiling architecture behavioral of entity adder_2 [adder_2_default]
+Compiling architecture behavioral of entity adder [adder_default]
+Compiling architecture behavior of entity sim_sum1
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 19 VHDL Units
+Built simulation executable C:/hlocal/practica3/sim_sum1_isim_beh.exe
+Fuse Memory Usage: 35372 KB
+Fuse CPU Usage: 420 ms

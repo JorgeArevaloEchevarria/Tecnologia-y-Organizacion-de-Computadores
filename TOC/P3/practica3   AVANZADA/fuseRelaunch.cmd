@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/hlocal/practica3/sim_sum1_isim_beh.exe" -prj "C:/hlocal/practica3/sim_sum1_beh.prj" "work.sim_sum1" 
